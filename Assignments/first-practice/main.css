@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#product-overview {
+    background: url("freedom.jpg");
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.plans-container{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.plan-title{
+    color: #03300f;
+}
+
+.plan-title__recommended{
+    background-color: white;
+    color: #076e23;
+    padding: 5px 5px; 
+}
+
+.plan-title__recommended, .plan-content__recommended{
+    border-top: 0;
+    border-right: grey 3px;
+    border-bottom: grey 3px;
+    border-left: 0;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.plan-content, .plan-content__recommended{
+    display: inline-block;
+    padding: 10px; 
+    margin: 10px;  
+    width: 30%; 
+    vertical-align: middle;
+}
+
+.plan-content {
+    background-color: #a2e9b5;
+}
+
+.plan-content__recommended {
+    background-color: #076e23; 
+    color: white;   
+}
+
+.plan-price{
+    color: rgb(94, 91, 91);
+}
+
+.plan-price__recommended{
+    color: rgb(31, 30, 30);
+}
+
+.plan-details{
+    list-style: none;
+    padding-left: 0;
+}
+
+.plan-details-content{
+    padding: 3px 3px;
+    text-align: center;
+}
+
+.plan-choose-btn{
+    background-color: #03300f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    padding: 5px 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.plan-choose-btn:hover, .plan-choose-btn:active{
+    background-color: white;
+    color: #076e23;;
+}
+
+
