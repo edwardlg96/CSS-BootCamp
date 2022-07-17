@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+/* Product Overview Section */
 #product-overview {
     background: url("freedom.jpg");
     width: 100%;
@@ -14,6 +15,7 @@ body {
     padding: 10px;   
 }
 
+/* Plans Section */
 .section-title {
     color: #2ddf5c;
 }
@@ -22,10 +24,6 @@ body {
     color: white;
     font-family: 'Anton', sans-serif;
 }
-
-/* h1 {
-    font-family: sans-serif;
-} */
 
 .main-header {
     width: 100%;
@@ -148,7 +146,7 @@ body {
     padding-left: 0;
 }
 
-.plan-details-content{
+.plan-details__content{
     padding: 3px 3px;
     text-align: center;
 }
@@ -169,4 +167,64 @@ body {
     color: #076e23;;
 }
 
+/* KEY FEATURES SECTION */
+#key-features{
+    background-color: #dd3636;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.key-features-title{
+    padding-top: 20px;
+}
+
+.key-features-details{
+    list-style: none;
+}
+
+.key-features-detail__content{
+    display: inline-block;
+    width: 25%;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.key-features-detail__img{
+    margin: auto;
+    width: 128px;
+    height: 128px;
+    border: solid black 2px;;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+
+/* MAIN FOOTER */
+.main-footer{
+    background-color: black;
+    text-align: center;    
+    padding: 10px;
+}
+
+.main-footer-options__list{
+    list-style: none;
+}
+
+.main-footer-option{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main-footer-option a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-footer-option a:hover, 
+.main-footer-option a:active{
+    color: #ccc;
+}
