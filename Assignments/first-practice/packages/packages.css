@@ -1,0 +1,65 @@
+.package, .premium-package{
+    margin-top: 40px;
+    margin-right: 200px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    border: solid 4px rgb(12, 34, 12);
+    border-left: none;
+}
+
+.package:hover, 
+.package:active ,
+.premium-package:hover, 
+.premium-package:active{
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 5);
+    border-color: red;
+}
+
+/* PACKAGE */
+.package {
+    background-color: rgb(171, 231, 171);
+}
+
+.package > a {
+    text-decoration: none;
+}
+
+.package-title{
+    font-weight: bold;
+    color: black;
+}
+
+.package-subtitle{
+    color: rgb(134, 128, 128);
+}
+
+.package-info{
+    background-color: white;
+    border: solid rgb(134, 128, 128) 2px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.premium-package{
+    background-color: rgb(5, 34, 5);
+}
+
+/* PREMIUM PACKAGE */
+.premium-package > a {
+    text-decoration: none;
+}
+
+.premium-package-title{
+    font-weight: bold;
+    color: white;
+}
+
+.premium-package-subtitle{
+    color: rgb(134, 128, 128);
+}
+
+.premium-package-info{
+    background-color: white;
+    margin-right: 40px;
+    padding: 10px;
+}
